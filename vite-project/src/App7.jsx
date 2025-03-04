@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import './App.css'
 
 // function Counter() {
@@ -100,8 +100,8 @@ import './App.css'
 // 초기 렌더링이 끝나면 컴포넌트가 마운트 해제 되고, 정리함수가 호출됐습니다.
 
 function Counter() {
-  const [count, setCount] = useState(0);
-  const [count2, setCount2] = useState(0);
+  const [ count, setCount ] = useState(0);
+  const [ count2, setCount2 ] = useState(0);
 
   useEffect(() => {
     console.log('Hello from useEffect');
@@ -110,19 +110,19 @@ function Counter() {
     };
   }, [count, count2]);    // 둘 차이를 확인하기 위해 count2를 지웠다가 썼다가 실험해보시기 바랍니다
 
-  return (
-    <>
-      <p>{count}</p>
-      <br />
-      <p>{count2}</p>
-      <br />
-      <button onClick={() => setCount(preCount => preCount + 1)}>+1 수행</button>
-      <br />
-      <br />
-      <br />
-      <br />
-      <button onClick={() => setCount2(preCount => preCount + 1)}>+1 수행</button>
-    </>
+  return(
+  <>
+    <p>{count}</p>
+    <br/>
+    <p>{count2}</p>
+    <br/>
+    <button onClick={() => setCount(preCount => preCount +1)}>+1 수행</button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <button onClick={() => setCount2(preCount => preCount +1)}>+1 수행</button>
+  </>
   );
 }
 

@@ -9,11 +9,25 @@ import ReactDOM from 'react-dom/client'
 // import HeaderText from './App4.jsx'
 // import Counter from './App5.jsx'
 // import App6 from './App6.jsx'
-// import Counter from './App7'
-// import App8 from './App8'
-import Counter from './App9'
-
+// import Counter from './App7.jsx'
+// import App8 from './App8.jsx'
+// import Counter from './App9.jsx'
+// import App from './App10.jsx'
+// import App from './App11.jsx'
+// import App from './App12.jsx'
+// import App from './App13.jsx'
+// import App from './App14.jsx'
+// import App from './App15.jsx';
+// import App from './App16.jsx';
+// import App from './App17.jsx';
+// import MyList from './MyList'
+// import MyTable from './MyTable'
+// import MyForm from './MyForm'
+// import MyForm from './MyForm2'
+// import MyForm from './MyForm3'
+import MyForm from './MyFrom4'
 import './index.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -28,6 +42,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App6 /> */}
     {/* <Counter /> */}
     {/* <App8 /> */}
-    <Counter />
+    {/* <Counter /> */}
+    {/* <App /> */}
+    {/* <App /> */}
+    {/* <App /> */}
+    {/* <MyList /> */}
+    {/* <MyTable /> */}
+    <MyForm />
   </React.StrictMode>,
 )
