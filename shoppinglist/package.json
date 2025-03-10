@@ -1,5 +1,5 @@
 {
-  "name": "githubapiapp",
+  "name": "shoppinglist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.36.1",
-    "ag-grid-community": "^33.1.1",
-    "ag-grid-react": "^33.1.1",
-    "axios": "^1.8.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.7",
     "react": "^18.2.0",
-    "react-date-picker": "^11.0.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

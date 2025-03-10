@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import './App.css'
+import './App.css';
 
 type Repository = {
   id: number;
@@ -23,11 +23,12 @@ function App() {
       <input
         value={keyword}
         onChange={e => setKeyword(e.target.value)}
-
-      /> <br /> <br />
+        placeholder='python_study_hard'
+      />
+      <br /><br />
       <button onClick={handleClick}>Fetch</button>
       {repodata.length === 0 ? (
-        <p> 접근 가능한 데이터가 없습니다</p>
+        <p>접근 가능한 데이터가 없습니다</p>
       ) : (
         <table>
           <tbody>
